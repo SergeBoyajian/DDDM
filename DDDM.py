@@ -219,7 +219,7 @@ if rad=="Numerical Features":
             st.plotly_chart(dist)
 
         if distribution == "Work Experience":
-            color_discrete_map = {'Male': 'rgb(31,119,180)', 'Female': 'rgb(214,39,40)'}
+            color_discrete_map = {'Work_Experience':'rgb(31,119,180)'}
             dist = px.histogram(num_features["Work_Experience"], color_discrete_map=color_discrete_map)
             dist.update_layout(showlegend= False, autosize=False,
         width=500,
@@ -306,7 +306,7 @@ if rad=="Numerical Features":
 
 ######################################### Income and Work Experience
         """##### Work Experience and Income"""
-        color_discrete_map = {'Work_Experience':'rgb(31,119,180)'}
+        color_discrete_map = {'Male':'rgb(31,119,180)', 'Female':'rgb(31,119,180)'}
         scatter2= px.scatter(data_frame=data, x="Income", y="Work_Experience", color='Gender',color_discrete_map=color_discrete_map)
         scatter2.update_layout(showlegend= False,width=450, height=400,margin=dict(
                 l=0,
