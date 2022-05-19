@@ -57,7 +57,7 @@ rad = option_menu(
 # .css-18e3th9 {padding-top: 0rem;}
 # </style>
 # """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+# st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 #<div data-testid="stToolbar" class="css-r698ls e8zbici2"><span id="MainMenu" aria-haspopup="true" aria-expanded="false"><button kind="icon" class="css-ex7byz edgvbvh6"><svg viewBox="0 0 8 8" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" color="inherit" class="e1fb0mya0 css-xq1lnh-EmotionIconBase ex0cdmw0"><path d="M0 1v1h8V1H0zm0 2.97v1h8v-1H0zm0 3v1h8v-1H0z"></path></svg></button></span></div>
 # st.markdown(f""" <style>
 # .reportview-container .main .block-container{{
