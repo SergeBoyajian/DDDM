@@ -89,13 +89,13 @@ if uploaded_file is not None:
 
 ######################################### HOME PAGE
 if rad=="Home Page":
-    st.markdown(f""" <style>
-        .reportview-container .main .block-container{{
-            padding-top: {padding}rem;
-            padding-right: {padding}rem;
-            padding-left: {padding}rem;
-            padding-bottom: {padding}rem;
-        }} </style> """, unsafe_allow_html=True)
+#     st.markdown(f""" <style>
+#         .reportview-container .main .block-container{{
+#             padding-top: {padding}rem;
+#             padding-right: {padding}rem;
+#             padding-left: {padding}rem;
+#             padding-bottom: {padding}rem;
+#         }} </style> """, unsafe_allow_html=True)
     image, title= st.columns((1,10))
     with image:
         st.image("https://i0.wp.com/gbsn.org/wp-content/uploads/2020/07/AUB-logo.png?ssl=1", width=200)
