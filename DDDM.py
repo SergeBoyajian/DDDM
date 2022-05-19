@@ -292,7 +292,7 @@ if rad=="Numerical Features":
         color_discrete_map = {'Male': 'rgb(31,119,180)', 'Female': 'rgb(214,39,40)'}
         hist2= px.histogram(data, x="Age", color="Gender", color_discrete_map=color_discrete_map, category_orders={'Gender':['Female', 'Male']})
         hist2.update_traces(opacity=0.75)
-        hist2.update_layout(legend=dict(yanchor="top", y=0.9, xanchor="left", x=0.6), autosize=False,
+        hist2.update_layout(legend=dict(yanchor="top", y=0.9, xanchor="left", x=0.75), autosize=False,
     width=450,
     height=400,
     margin=dict(
